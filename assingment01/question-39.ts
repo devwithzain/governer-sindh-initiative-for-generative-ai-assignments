@@ -1,0 +1,23 @@
+// 39. City Names: Write a function called city_country() that takes in the name
+// of a city and its country.The function should return a string formatted like this:
+
+// "Lahore, Pakistan"
+
+// Call your function with at least three city - country pairs, and print the value;
+// that’s returned.
+
+// Solution No 39:
+
+function cityCountry(city, country = "Pakistan") {
+   return `${city}, ${country}`;
+}
+
+console.log(cityCountry("Karachi"));
+console.log(cityCountry("Tokyo", "Japan"));
+console.log(cityCountry("London", "UK"));
+
+// ***** Result *****:
+
+// Karachi, Pakistan;
+// Tokyo, Japan;
+// London, UK;
